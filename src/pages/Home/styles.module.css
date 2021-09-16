@@ -2,13 +2,16 @@
     text-align: center;
 }
 
-.title{
+.title,.loading{
     font-size: 72px;
     font-weight: 700;
     color: white;
     margin-top: 20px;
     margin-bottom: 60px
+}
 
+.loading{
+    color: #24b47e;
 }
 
 .flex{
