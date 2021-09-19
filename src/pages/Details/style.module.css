@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #24b47e;
+    max-width: 549px;
+    border-radius: 10px;
+}
+
+.body{
+    padding: 20px;
+}
+
+.title{
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.summary{
+    color: #181818;
+}
+
+.img{
+    display: block;
+    max-width: 100%;
+    border-radius: 10px 10px 0 0;
+}
